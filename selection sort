@@ -1,15 +1,15 @@
 #include <iostream>
 
 using namespace std;
-int selectionsort(int a[],int n){//27 28 39 58 48
-for(int i=0;i<n;i++)//012
+int selectionsort(int a[],int n){
+for(int i=0;i<n;i++)
 {
     int t=i;
-    for(int j=i+1;j<n;j++)//34
+    for(int j=i+1;j<n;j++
     {
-        if(a[j]<a[t])//58<48 39<48
+        if(a[j]<a[t])
         {
-            t=j;//t=27 t=28  t=39
+            t=j;
         }
 
     }
